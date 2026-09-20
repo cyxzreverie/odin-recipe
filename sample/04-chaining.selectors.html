@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Chaining Selectors</title>
+        <style>
+            .avatar.distorted {
+                width: 200px;
+                height: 400px;
+            }
+
+            .avatar.proportioned {
+                width: 300px;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="./images/woman.jpg" alt="Image" class="avatar proportioned">
+        <img src="./images/man.jpg" alt="Image" class="avatar distorted">
+        <img src="./images/woman.jpg" alt="Image" class="original proportioned">
+        <img src="./images/man.jpg" alt="Image" class="original distorted">
+    </body>
+</html>
